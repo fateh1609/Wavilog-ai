@@ -21,11 +21,11 @@ const HeroBackground: React.FC = () => {
     const particleCount = 120;
 
     class Particle {
-      x: number;
-      y: number;
-      z: number;
-      pz: number;
-      color: string;
+      x!: number;
+      y!: number;
+      z!: number;
+      pz!: number;
+      color!: string;
 
       constructor() {
         this.reset();
